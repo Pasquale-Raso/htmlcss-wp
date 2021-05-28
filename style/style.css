@@ -69,6 +69,7 @@ a:hover {
     float: left;
     border-radius: 20px;
     opacity: 0.5;
+    filter: saturate(3);
 }
 
 .conteiner-testo {
@@ -87,7 +88,8 @@ h1{
 
 .sottotitolo{
     font-size: 13px;
-    font-weight: normal
+    font-weight: normal;
+    color: white;
 }
 /* section-header */
 
@@ -109,27 +111,24 @@ h5{
 /* section-table */
 
 .box1 {
-    height: 500px;
+    height: 420px;
     width: 20%;
     margin-bottom: 20px;
-    background-color: lightblue;
     float: left;
     margin-right: 20px;
 }
 
 .box2 {
-    height: 500px;
+    height: 420px;
     width: calc(60% - 40px);
     margin-bottom: 20px;
-    background-color: lightblue;
     float: left;
 }
 
 .box3 {
-    height: 500px;
+    height: 420px;
     width: 20%;
     margin-bottom: 20px;
-    background-color: lightblue;
     float: right;
     margin-left: 20px;
 }
@@ -141,5 +140,38 @@ h5{
     object-fit: cover;
     float: left;
     border-radius: 20px;
-    color: rgba(47, 47, 47, 0.5);
+}
+
+.lorem {
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+p {
+    color: grey;
+    font-weight: normal;
+    font-size: 15px;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.footer {
+    width: auto;
+    height: 40px;
+}
+
+.copy {
+    font-weight: normal;
+    text-align: center;
+}
+
+#heart{
+    color: red;
 }
