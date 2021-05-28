@@ -1,0 +1,33 @@
+/* Base */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    width: 80%;
+    height: 1000px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+body {
+    background-color: brown;
+}
+
+/* Header */
+#logo {
+    width: auto;
+    height: 50px;
+    margin-right: 20px;
+}
+
+#border-left {
+    height: 50px;
+    border-width: 0px 2px 0px 0px;
+    border-style: solid;
+    border-color: lightgrey;
+    display: inline-block;
+}
